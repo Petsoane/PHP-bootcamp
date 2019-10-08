@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(54, 53, 53);
+}
+
+/* setting up the top bar */
+.box{ /* This will help align the things side by side*/
+    width: 45%;
+    float: left;
+}
+.topDiv{/* Sets up the top bar */
+    background-color: rgb(146, 145, 145);
+    border-radius: 3px;
+    width: 75vw;
+    height: 7.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+.middle{ /* Right aligns contents */
+    text-align: right;
+    width: 49%;
+    float: left;
+}
+.right{
+    text-align: right;
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+.cluster{
+    background-color: rgb(146, 145, 145);
+}
+
+/* setting up the picture */
+.center{
+    border-radius: 3px;
+    width: 70vw;
+    height: 34vw;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.tool{
+    background-color: rgb(146, 145, 145);
+    border-radius: 3px;
+    text-align:  center;
+    width: 10%;
+    height: 80%;
+    float: left;
+    position: relative;
+    right: 2.01%;
+}
+.toolPic{
+    width: 60%;
+    margin-top: 5px;
+}
+.cluster{
+    background-color: rgb(146, 145, 145);
+    border-radius: 4px;
+    width: 77%;
+    float: left;
+    margin-left: 5px;
+    padding: 5px;
+    padding-bottom:1px;
+    text-align: center;
+    margin-left: 5px;
+}
+.wall{
+    background-color: grey;
+    border-radius: 4px;
+    width: 10%;
+    height: 80%;
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    left: 2.01%;
+    text-align: center;
+}
+.bottomDiv{
+    background-color: rgb(92, 207, 92);
+    border-radius: 5px;
+    z-index: 10;
+    width:350px;
+    height: 105px;
+    margin-left: 18%;
+    position: relative;
+    top: -50px;
+}
+
+.shadow{
+    box-shadow: 7px 5px 8px black
+}
+
+form{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+p{
+    margin:0;
+    margin-left: 5px;
+    font-size: 80%;
+}
+b{
+    font-size: 160%;
+}
+
+#button{
+    width: 30%;
+    border-radius: 0px;
+}
+#textBox{
+    width: 60%;
+}
+#title{
+    width: 80%;
+
+}
+#spyGlass{
+   width: 50%;
+    position: relative;
+    right: -6%;
+}
+#rel{
+    width: 50%;
+}
+#quite{
+    width: 50%;
+    margin-top: 89%;
+}
