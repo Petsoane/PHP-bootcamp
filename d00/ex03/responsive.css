@@ -1,0 +1,76 @@
+body{
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.wallpapersafari.com%2F18%2F46%2FQP5YMN.jpg&f=1&nofb=1");
+}
+/* Table set up */
+td{
+    width: 80px;
+    height: 80px;
+    padding: none;
+}
+
+/*Adding the colors for each element*/
+.orange{
+    background-color: rgba(255, 166, 0, 0.301);
+}
+.purple{
+    background-color: rgba(77, 0, 128, 0.363);
+}
+.blue{
+    background-color: rgba(0, 0, 122, 0.5);
+}
+.mustard{
+    background-color: rgba(255, 255, 0, 0.329)
+} 
+.green{
+    background-color: rgba(0, 128, 32, 0.575);
+}
+.brown{
+    background-color: rgba(139, 83, 83, 0.486);
+}
+.pink{
+    background-color: rgba(255, 192, 203, 0.438);
+}
+.silver{
+    background-color: rgba(192, 192, 192, 0.795);
+}
+
+/*Atomic of the number*/
+.topDiv{
+    height: 10%;
+}
+.right{
+    text-align: right;
+}
+.box{
+    font-size:50%;
+    width: 50%;
+    float: left;
+}
+
+/* This section is for the symbol and the atomic mass */
+.centerDiv{
+    height: 80%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke
+}
+.Symbol{
+    font-size: 2.4vw;
+}
+.Mass{
+    font-size: 50%;
+}
+
+/* Section for elctron configuration */
+.bottomDiv{
+    height: 10%;
+    font-size: 50%;
+}
+.triple{
+    font-size:  3vw;
+}
+
+#Header{
+    text-align: center;
+    color: whitesmoke;
+}
