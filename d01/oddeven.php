@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
     function get_input(){
         # open stdin to allow input to be given
